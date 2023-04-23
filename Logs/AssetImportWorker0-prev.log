@@ -15,7 +15,7 @@ D:/IntroAnimationSystems
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65179
+62132
 Successfully changed project path to: D:/IntroAnimationSystems
 D:/IntroAnimationSystems
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/IntroAnimationSystems
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7868] Host "[IP] 192.168.1.162 [Port] 0 [Flags] 2 [Guid] 1855387787 [EditorId] 1855387787 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UA2QPC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20952] Host "[IP] 192.168.1.162 [Port] 0 [Flags] 2 [Guid] 302570600 [EditorId] 302570600 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UA2QPC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7868] Host "[IP] 192.168.1.162 [Port] 0 [Flags] 2 [Guid] 1855387787 [EditorId] 1855387787 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UA2QPC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20952] Host "[IP] 192.168.1.162 [Port] 0 [Flags] 2 [Guid] 302570600 [EditorId] 302570600 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UA2QPC9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 89.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3482.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,618 +67,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005486 seconds.
+Registered in 0.009180 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 207.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.672 seconds
+- Completed reload, in  1.295 seconds
 Domain Reload Profiling:
-	ReloadAssembly (674ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (1297ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (498ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1035ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (312ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (554ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (59ms)
+				InitializePlatformSupportModulesInManaged (64ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (207ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003732 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Package Manager log level set to [2]
-Mono: successfully reloaded assembly
-- Completed reload, in  1.328 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1329ms)
-		BeginReloadAssembly (240ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (150ms)
-		EndReloadAssembly (972ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (444ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (297ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (113.8 KB). Loaded Objects now: 3912.
-Memory consumption went from 118.4 MB to 118.2 MB.
-Total: 4.400400 ms (FindLiveObjects: 0.469200 ms CreateObjectMapping: 0.265700 ms MarkObjects: 3.515400 ms  DeleteObjects: 0.148100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 401339.704337 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(1cfc960b94b505749900716b109e066c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(1cfc960b94b505749900716b109e066c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b85210c366a756962edec1161fc195c') in 0.077422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.172378 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(6303a43b321ea304c8dd2040942e08d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(6303a43b321ea304c8dd2040942e08d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46191647fb81b8b721c89224952a0689') in 0.040522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.994498 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(c062cf1d57d54c2488410e2b6114557c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(c062cf1d57d54c2488410e2b6114557c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58eff021714b106cfae89d8a8336556') in 0.020064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.029870 seconds.
-  path: Assets/TutorialInfo/Layout.wlt
-  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f886eed12182d02861e17e303a52dec') in 0.008158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.957750 seconds.
-  path: Assets/TutorialInfo/Icons
-  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f85b7a89ef3d881093a23dd514b6538') in 0.006962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TutorialInfo/Icons/Help_Icon.png
-  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028ec4d6e05ba2594208f336cce83bea') in 0.093583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67169.032996 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/Scenes
-  artifactKey: Guid(19860ce67f057b24c86834a7564a98ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/Scenes using Guid(19860ce67f057b24c86834a7564a98ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b209484df764069935b9f8b950ae7ee') in 0.035410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.222372 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/Scenes/CoreConcepts.unity
-  artifactKey: Guid(2906bc7bc457c154e9cbe4c3b1c8ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/Scenes/CoreConcepts.unity using Guid(2906bc7bc457c154e9cbe4c3b1c8ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bace68df8f9a8c028b3b3dc8e93753') in 0.061521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.268276 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/Scripts/BlendingExample.cs
-  artifactKey: Guid(40c6c852fa24b9e4d9534552037b17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/Scripts/BlendingExample.cs using Guid(40c6c852fa24b9e4d9534552037b17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713f1ac9b9220c526f84ce6a12f9e37a') in 0.067950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.136903 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/Scripts/Testing.cs
-  artifactKey: Guid(82fdd2c3955a9c2499236736df46bc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/Scripts/Testing.cs using Guid(82fdd2c3955a9c2499236736df46bc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ed0691fc40541c7a18ce24a40530ed') in 0.062755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.589618 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/Scripts/Editor
-  artifactKey: Guid(1129cfb1424bcb24db033fde97adf053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/Scripts/Editor using Guid(1129cfb1424bcb24db033fde97adf053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08261d730a563ad2d500f4d13a1c1cfc') in 0.082765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.736270 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/Scripts/Editor/BlendingExampleEditor.cs
-  artifactKey: Guid(a5b9ad8bfd03f0c4aa3d30df5d515fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/Scripts/Editor/BlendingExampleEditor.cs using Guid(a5b9ad8bfd03f0c4aa3d30df5d515fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee139058efaff9c274ea53eb1deda115') in 0.044961 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002401 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1120ms)
-		BeginReloadAssembly (273ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (125ms)
-		EndReloadAssembly (762ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3447 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.2 KB). Loaded Objects now: 3919.
-Memory consumption went from 118.4 MB to 118.3 MB.
-Total: 3.874000 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.164600 ms MarkObjects: 3.285300 ms  DeleteObjects: 0.158000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 193.484117 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/AnimatorControllers/CubeController.controller
-  artifactKey: Guid(5fc5e600f1c6b00479734f4345619b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/AnimatorControllers/CubeController.controller using Guid(5fc5e600f1c6b00479734f4345619b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70bc21a9cdc220752a7d407095a63c8') in 0.057267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5920.091908 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/AnimatorControllers
-  artifactKey: Guid(44a864b58e60fa042873a842af1de5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/AnimatorControllers using Guid(44a864b58e60fa042873a842af1de5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29de3e72948fd2aeca8343a14a27553c') in 0.007592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.912166 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/AnimatorControllers/ExampleController.controller
-  artifactKey: Guid(d70b0c7c996d79349baa85ad47a53ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/AnimatorControllers/ExampleController.controller using Guid(d70b0c7c996d79349baa85ad47a53ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7443c1a7fc6cfe39bb6b389d693c323') in 0.012218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.656687 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/AnimationClips/Circle.anim
-  artifactKey: Guid(d268bd3b33f5621478cbc83051788e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/AnimationClips/Circle.anim using Guid(d268bd3b33f5621478cbc83051788e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46188c79f2500ae341e83ed6735be43') in 0.049097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.728017 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/AnimationClips/Square.anim
-  artifactKey: Guid(edbd11892364ced4a847635a420ea824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/AnimationClips/Square.anim using Guid(edbd11892364ced4a847635a420ea824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1264b4aeda51ef733ee5f79960b09a2b') in 0.007501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 220.401005 seconds.
-  path: Assets/1.3 - Core Concepts Animation Blending/AnimatorControllers/ExampleController.controller
-  artifactKey: Guid(d70b0c7c996d79349baa85ad47a53ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1.3 - Core Concepts Animation Blending/AnimatorControllers/ExampleController.controller using Guid(d70b0c7c996d79349baa85ad47a53ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0799f947321036528e9b4a13a8e1cd1f') in 0.003683 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003051 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.056 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1057ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (822ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (339ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3447 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.2 KB). Loaded Objects now: 3923.
-Memory consumption went from 118.4 MB to 118.3 MB.
-Total: 3.984900 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.102000 ms MarkObjects: 3.525100 ms  DeleteObjects: 0.114800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 353.341041 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/AnimationClips
-  artifactKey: Guid(ac193374a2597fc4bb17b5e475d40f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/AnimationClips using Guid(ac193374a2597fc4bb17b5e475d40f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877d03063fd20c2d895a3f81bb699703') in 0.066795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.378309 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Animators
-  artifactKey: Guid(f300c33dd87cfbc4aad73da1dc445296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Animators using Guid(f300c33dd87cfbc4aad73da1dc445296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee2910c9d48395ee709278262197bfb') in 0.006073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.403335 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Materials
-  artifactKey: Guid(3a0b3980f4fa8af41a49c96935635d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Materials using Guid(3a0b3980f4fa8af41a49c96935635d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9560996ca79d11ed7ab45a9ab044c2') in 0.056065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.037831 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Models
-  artifactKey: Guid(c4f334bc52a418049b3cd84030996668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Models using Guid(c4f334bc52a418049b3cd84030996668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87aaeccda1676b4f52e22ad2c4486427') in 0.006587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.058675 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Scenes
-  artifactKey: Guid(65e6017cbff5e2b40a1e737179c0be25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Scenes using Guid(65e6017cbff5e2b40a1e737179c0be25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaad287b5bc644f29cac66f385c7afcc') in 0.093182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 80.690050 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Scenes/StreetLampExample.unity
-  artifactKey: Guid(c19beade52648484ba83f86cf656c438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Scenes/StreetLampExample.unity using Guid(c19beade52648484ba83f86cf656c438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dec0dee654cda0b6367f957cccb5b0c') in 0.047471 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003673 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.259 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1260ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (992ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (355ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (427ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3447 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.1 KB). Loaded Objects now: 3927.
-Memory consumption went from 118.4 MB to 118.3 MB.
-Total: 3.325900 ms (FindLiveObjects: 0.332700 ms CreateObjectMapping: 0.152500 ms MarkObjects: 2.724500 ms  DeleteObjects: 0.114600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 189.933003 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Models/StreetLamp.fbx
-  artifactKey: Guid(28b3517024fe0e34e91f79f6a384cda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Models/StreetLamp.fbx using Guid(28b3517024fe0e34e91f79f6a384cda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590d1679faf2c3e3a66cceb442e482ac') in 0.567159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.482422 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/AnimationClips/HumanoidCrouch.fbx
-  artifactKey: Guid(2e83947d3282d6c4b864ed9f333ccbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/AnimationClips/HumanoidCrouch.fbx using Guid(2e83947d3282d6c4b864ed9f333ccbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c783c495b9a4ea1b34a7fdbd8a08ae') in 0.183763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 80.267231 seconds.
-  path: Assets/Prefabs/HumanoidCrouch.prefab
-  artifactKey: Guid(f0ee60f005d6b3043b43a000209a3b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HumanoidCrouch.prefab using Guid(f0ee60f005d6b3043b43a000209a3b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fac14908d70caf6b0b9d756335deda') in 0.006308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.032450 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Materials/StreetLamp.mat
-  artifactKey: Guid(8db9cd2242bd26e40960d976db673485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Materials/StreetLamp.mat using Guid(8db9cd2242bd26e40960d976db673485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f4d96f0c07261844ca203837f71e23') in 0.055358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.375256 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Textures/StreetLamp_Albedo.tif
-  artifactKey: Guid(1379e4444b5cabd43bbe983eb91fd94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Textures/StreetLamp_Albedo.tif using Guid(1379e4444b5cabd43bbe983eb91fd94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ff5a2dcbdcbfa220300e5eadb5e400') in 0.113969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Textures/StreetLamp_Metalness.tif
-  artifactKey: Guid(a37fac052a0ad2645964ea1fd835bded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Textures/StreetLamp_Metalness.tif using Guid(a37fac052a0ad2645964ea1fd835bded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49ced4960983282d51f82aefc1ce341') in 0.016744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Textures/StreetLamp_Normal.tif
-  artifactKey: Guid(4704582073e4ea04fb3bca0fd92aa74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Textures/StreetLamp_Normal.tif using Guid(4704582073e4ea04fb3bca0fd92aa74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45c7039961ba166aca3234a7c6c1082') in 0.018996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.689772 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/AnimationClips/LightFlicker.anim
-  artifactKey: Guid(992d8c07bbaed04458284679b6a25d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/AnimationClips/LightFlicker.anim using Guid(992d8c07bbaed04458284679b6a25d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ccbd02c5e074a3565c0607e953cd98') in 0.006322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 572.229645 seconds.
-  path: Assets/Prefabs/StreetLamp.prefab
-  artifactKey: Guid(06101a06e34088e4ab18847e44f0f4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/StreetLamp.prefab using Guid(06101a06e34088e4ab18847e44f0f4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee2f68e70e21ea231910b76122fa4f5') in 0.031756 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003047 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.370 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1372ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1115ms)
-			LoadAssemblies (120ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (467ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3447 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.2 KB). Loaded Objects now: 3976.
-Memory consumption went from 123.2 MB to 123.1 MB.
-Total: 6.161800 ms (FindLiveObjects: 0.513400 ms CreateObjectMapping: 0.624700 ms MarkObjects: 4.793100 ms  DeleteObjects: 0.228300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002511 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\IntroAnimationSystems\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.282 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1284ms)
-		BeginReloadAssembly (297ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (97ms)
-		EndReloadAssembly (889ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (363ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (229ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3447 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.1 KB). Loaded Objects now: 3980.
-Memory consumption went from 123.2 MB to 123.2 MB.
-Total: 3.690500 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.096800 ms MarkObjects: 3.231300 ms  DeleteObjects: 0.128200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 77354.192894 seconds.
-  path: Assets/2.1 - Animation Window Features and Settings/Animators/StreetLamp.controller
-  artifactKey: Guid(55940ca29d428e349bd3672ced3978a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.1 - Animation Window Features and Settings/Animators/StreetLamp.controller using Guid(55940ca29d428e349bd3672ced3978a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e838dde7f4167cffc4e75cb0ce9ae2e2') in 0.119298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13748.069952 seconds.
-  path: Assets/2.2 - Editing Animation Clips/Scenes
-  artifactKey: Guid(a1ad076c32ae56b49a30ce571fd3bb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.2 - Editing Animation Clips/Scenes using Guid(a1ad076c32ae56b49a30ce571fd3bb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efacdf509d544f360130fe0a16a688cc') in 0.031675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.353099 seconds.
-  path: Assets/2.2 - Editing Animation Clips/Scenes/StreetLampExample.unity
-  artifactKey: Guid(e959e946610aa4e48b492336f1faec84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2.2 - Editing Animation Clips/Scenes/StreetLampExample.unity using Guid(e959e946610aa4e48b492336f1faec84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fe65179f063b399da1c0735fae7ccb') in 0.008267 seconds 
+Registered in 2.185634 seconds.
+Android Extension - Scanning For ADB Devices 4839 ms
