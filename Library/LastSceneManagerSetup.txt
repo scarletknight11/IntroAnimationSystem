@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/3.4 - Creating and configuring Blend Trees/Scenes/1DBlendTrees.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
